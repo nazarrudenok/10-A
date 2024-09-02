@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url('/styles/fonts/e-UkraineHead-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'e-Ukraine';
+}
+
+.header {
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.nav-item:nth-child(2) {
+    border: 2px solid #000000;
+    padding: 3.5px 15px;
+    border-radius: 40px;
+    transition: all .15s;
+}
+
+.nav-item:nth-child(2):hover {
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-bottom-cont {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 12.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-item {
+    background: #000000;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    transition: all .15s;
+    font-size: 17.5px;
+}
+
+.bottom-item:hover {
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.schedule-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 10px;
+    background: #7c7bff;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+.lesson {
+    font-size: 20px;
+}
+
+.num {
+    margin-right: 15px;
+    background: #ffffff;
+    color: #000000;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.value {
+    font-size: 22.5px;
+}
+
+.lesson {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
