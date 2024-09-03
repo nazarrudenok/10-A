@@ -70,8 +70,9 @@ body {
 }
 
 .bottom-item:hover {
-    background: #ffffff;
+    background: #7c7bff;
     color: #000000;
+    border: 2px solid #7c7bff;
     cursor: pointer;
 }
 
