@@ -1,7 +1,4 @@
 function mon() {
-    const value = document.getElementsByClassName('mon')[0];
-    value.style.background = '#7c7bff';
-    value.style.borderColor = '#7c7bff';
     const scheduleCont = document.querySelector('.schedule-cont');
     scheduleCont.innerHTML = `
             <div class="lesson">
@@ -36,9 +33,6 @@ function mon() {
 }
 
 function tue() {
-    const value = document.getElementsByClassName('tue')[0];
-    value.style.background = '#7c7bff';
-    value.style.borderColor = '#7c7bff';
     const scheduleCont = document.querySelector('.schedule-cont');
     scheduleCont.innerHTML = `
             <div class="lesson">
@@ -73,9 +67,6 @@ function tue() {
 }
 
 function wed() {
-    const value = document.getElementsByClassName('wed')[0];
-    value.style.background = '#7c7bff';
-    value.style.borderColor = '#7c7bff';
     const scheduleCont = document.querySelector('.schedule-cont');
     scheduleCont.innerHTML = `
             <div class="lesson">
@@ -110,9 +101,6 @@ function wed() {
 }
 
 function thu() {
-    const value = document.getElementsByClassName('thu')[0];
-    value.style.background = '#7c7bff';
-    value.style.borderColor = '#7c7bff';
     const scheduleCont = document.querySelector('.schedule-cont');
     scheduleCont.innerHTML = `
             <div class="lesson">
@@ -147,9 +135,6 @@ function thu() {
 }
 
 function fri() {
-    const value = document.getElementsByClassName('fri')[0];
-    value.style.background = '#7c7bff';
-    value.style.borderColor = '#7c7bff';
     const scheduleCont = document.querySelector('.schedule-cont');
     scheduleCont.innerHTML = `
             <div class="lesson">
