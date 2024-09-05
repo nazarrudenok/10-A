@@ -151,19 +151,19 @@ function fri() {
             </div>
             <div class="lesson">
                 <p class="num">4</p>
-                <p class="value"></p>
+                <p class="value">Інформатика</p>
             </div>
             <div class="lesson">
                 <p class="num">5</p>
-                <p class="value"></p>
+                <p class="value">Інформатика</p>
             </div>
             <div class="lesson">
                 <p class="num">6</p>
-                <p class="value"></p>
+                <p class="value">Українська література</p>
             </div>
             <div class="lesson">
                 <p class="num">7</p>
-                <p class="value"></p>
+                <p class="value">Всесвітня історія</p>
             </div>
     `;
 }
