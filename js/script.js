@@ -143,11 +143,11 @@ function fri() {
             </div>
             <div class="lesson">
                 <p class="num">2</p>
-                <p class="value"></p>
+                <p class="value">Фізика</p>
             </div>
             <div class="lesson">
                 <p class="num">3</p>
-                <p class="value"></p>
+                <p class="value">Технології</p>
             </div>
             <div class="lesson">
                 <p class="num">4</p>
