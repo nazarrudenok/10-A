@@ -65,6 +65,7 @@ body {
 
 .add {
     background: #111419;
+    transition: all .15s
 }
 
 .btn:hover {
@@ -158,4 +159,8 @@ body {
     margin-right: 20px;
     margin-left: 10px;
     font-size: 13.5px;
+}
+
+.add:hover {
+    background: #191c21
 }
