@@ -10,56 +10,84 @@
     <link rel="stylesheet" href="styles/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="nav">
             <h1 class="nav-item">10-А</h1>
             <h1 class="nav-item">II група</h1>
         </div>
-    </header>
+    </header> -->
     <div class="main">
-        <div class="schedule-cont">
-            <div class="lesson">
-                <p class="num">1</p>
-                <p class="value">Економіка</p>
-            </div>
-            <div class="lesson">
-                <p class="num">2</p>
-                <p class="value">Економіка</p>
-            </div>
-            <div class="lesson">
-                <p class="num">3</p>
-                <p class="value">Громадянська освіта</p>
-            </div>
-            <div class="lesson">
-                <p class="num">4</p>
-                <p class="value">Геометрія</p>
-            </div>
-            <div class="lesson">
-                <p class="num">5</p>
-                <p class="value">Англійська мова</p>
-            </div>
-            <div class="lesson">
-                <p class="num">6</p>
-                <p class="value">Українська мова</p>
-            </div>
-            <div class="lesson">
-                <p class="num">7</p>
-                <p class="value"></p>
-            </div>
-        </div>
         <div class="slider">
-            <h1 class="nav-item btn" onclick="first()">
+            <h1 class="nav-item btn add" onclick="first()">
                 <span class="material-symbols-outlined">
                     timer
                 </span>
                 Дзвінки
             </h1>
-            <h1 class="nav-item btn" onclick="second()">
+            <h1 class="nav-item btn add" onclick="second()">
                 <span class="material-symbols-outlined">
                     skull
                 </span>
                 Захист України
             </h1>
+        </div>
+        <div class="schedule-cont">
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">8:00</p>
+                    <p class="line">-</p>
+                    <p class="second">8:45</p>
+                </div>
+                <p class="value">Економіка</p>
+            </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">8:50</p>
+                    <p class="line">-</p>
+                    <p class="second">9:35</p>
+                </div>
+                <p class="value">Економіка</p>
+            </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">9:45</p>
+                    <p class="line">-</p>
+                    <p class="second">10:30</p>
+                </div>
+                <p class="value">Громадянська освіта</p>
+            </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">10:45</p>
+                    <p class="line">-</p>
+                    <p class="second">11:30</p>
+                </div>
+                <p class="value">Геометрія</p>
+            </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">11:40</p>
+                    <p class="line">-</p>
+                    <p class="second">12:25</p>
+                </div>
+                <p class="value">Англійська мова</p>
+            </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">12:35</p>
+                    <p class="line">-</p>
+                    <p class="second">13:30</p>
+                </div>
+                <p class="value">Українська мова</p>
+            </div>
+            <!-- <div class="lesson">
+                <div class="time">
+                    <p class="first">13:40</p>
+                    <p class="line">-</p>
+                    <p class="second">14:15</p>
+                </div>
+                <p class="value"></p>
+            </div> -->
         </div>
         <div class="nav-bottom-cont">
             <div class="bottom-item mon" onclick="mon()">
