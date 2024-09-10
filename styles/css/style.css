@@ -64,17 +64,17 @@ body {
 }
 
 .add {
-    background: #000000;
+    background: #111419;
 }
 
 .btn:hover {
-    background: #000000;
+    background: #111419;
     color: #ffffff;
     cursor: pointer;
 }
 
 .nav-item:nth-child(2):hover {
-    background: #000000;
+    background: #111419;
     color: #ffffff;
     cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .bottom-item {
-    background: #000000;
+    background: #111419;
     color: #ffffff;
     width: 60px;
     height: 40px;
