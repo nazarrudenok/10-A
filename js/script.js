@@ -157,6 +157,14 @@ function wed() {
                 </div>
                 <p class="value">Українська мова</p>
             </div>
+            <div class="lesson">
+                <div class="time">
+                    <p class="first">11:40</p>
+                    <p class="line">-</p>
+                    <p class="second">12:25</p>
+                </div>
+                <p class="value">Англійська мова</p>
+            </div>
     `;
 }
 
