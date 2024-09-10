@@ -146,10 +146,7 @@ body {
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-}
-
-.lesson {
-    background: #3f4759;
+    background: #191c21;
     padding: 10px;
     border-radius: 10px;
 }
