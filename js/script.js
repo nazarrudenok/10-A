@@ -71,7 +71,7 @@ function wed() {
     scheduleCont.innerHTML = `
             <div class="lesson">
                 <p class="num">1</p>
-                <p class="value"></p>
+                <p class="value">Алгебра</p>
             </div>
             <div class="lesson">
                 <p class="num">2</p>
