@@ -37,7 +37,7 @@ function tue() {
     scheduleCont.innerHTML = `
             <div class="lesson">
                 <p class="num">1</p>
-                <p class="value">Історія України</p>
+                <p class="value">Алгебра</p>
             </div>
             <div class="lesson">
                 <p class="num">2</p>
@@ -57,11 +57,11 @@ function tue() {
             </div>
             <div class="lesson">
                 <p class="num">6</p>
-                <p class="value">Алгебра</p>
+                <p class="value">Фізична культура</p>
             </div>
             <div class="lesson">
                 <p class="num">7</p>
-                <p class="value">Фізична культура</p>
+                <p class="value">Історія України</p>
             </div>
     `;
 }
